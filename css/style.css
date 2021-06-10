@@ -1,0 +1,1123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', serif;
+}
+a:hover{
+    text-decoration: none;
+}
+
+.bg_orange {
+    background: #ef642f;
+}
+
+.row {
+    margin: 0;
+    height: 100%;
+}
+
+.content {
+    max-width: 1400px;
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1030;
+    width: 100%;
+}
+
+.navbar ul{
+    width: 300px;
+    text-align: right;
+    font-weight: 780;
+    font-size: 2rem;
+    line-height: 1;
+    background: #fcbf31;
+    margin-left: auto;
+    padding: 20px;
+}
+
+.hamburguer-icon {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: relative;
+    z-index: 1;
+    right: 50px;
+    top: 50px;
+    position: absolute;
+}
+
+.hamburguer-bar-1,
+.hamburguer-bar-2,
+.hamburguer-bar-3 {
+    background-color: #fff;
+    width: 40px;
+    height: 3px;
+    margin: 0.25rem 0;
+    transition: .5s;
+}
+
+.hamburguer-bar-2 {
+    width: 30px;
+}
+
+.hamburguer-bar-3 {
+    width: 20px;
+}
+.navbar-toggler:focus, .navbar-toggler:hover{
+    outline: 0;
+}
+.navbar a {
+    color: inherit;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    outline: none !important;
+  }
+  .hamburguer-icon .hamburguer-bar-1.close-icon {
+    transform: translate(0, 12px) rotate(-45deg);
+  }
+  .hamburguer-icon .hamburguer-bar-2.close-icon {
+    width: 40px;
+    transform: rotate(45deg);
+  }
+  .hamburguer-icon .hamburguer-bar-3.close-icon {
+    opacity: 0;
+  }
+
+/* Home */
+.home {
+    background: #f26322;
+    position: relative;
+    height: 105vh;
+    max-height: 700px;
+}
+
+.home .row {
+    height: 100%;
+    max-width: 1366px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.home h1.text-center {
+    margin-top: 110px;
+    margin-bottom: 0;
+    font-size: 1.4rem;
+}
+
+.home .text_one,
+.home .text_two {
+    font-size: 10.5rem;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 2px;
+    max-width: 100%;
+}
+
+.home .text_one {
+    padding: 0;
+    position: absolute;
+    right: 30px;
+    bottom: 40%;
+    width: calc(100% - 130px);
+    left: 130px;
+}
+
+.text_one span {
+    margin-left: 12rem;
+    display: inline-block;
+}
+
+.home .text_two {
+    z-index: 2;
+    position: absolute;
+    color: #fff;
+    line-height: 100px;
+    bottom: 100px;
+    left: 20px;
+}
+
+.home img.niño_home {
+    position: absolute;
+    width: 900px;
+    bottom: 0;
+    left: 30px;
+    z-index: 1;
+}
+
+.home .bar_menu {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 90px;
+    background: #f26322;
+    z-index: 2;
+}
+
+.bar_menu a {
+    display: block;
+    color: #000;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.bar_menu a img {
+    width: 40px;
+    display: block;
+    margin: 0 10px;
+}
+
+.bar_menu .col-6 p {
+    color: #fff;
+    margin: 0;
+}
+
+.bar_menu .col-6:hover {
+    background: #fec00f;
+    cursor: pointer;
+}
+
+/* Video */
+.video {
+    background: #353239;
+}
+
+.video video {
+    width: 100%;
+}
+
+/* About */
+.about h2 {
+    color: #f26322;
+    font-size: 6rem;
+    font-weight: 800;
+}
+
+.about p.subtitle {
+    color: #b22f65;
+    font-weight: 700;
+}
+.bars{
+    position: relative;
+    z-index: 1;
+    margin-top: 80px;
+}
+.progress{
+    position: relative;
+    z-index: 1;
+    background: #b23066;
+}
+.progress-bar{
+    background: #f59232;
+}
+.progress label{
+    z-index: 1;
+}
+.progress .w-15{
+    width: 15%;
+}
+.progress .w-10{
+    width: 10%;
+}
+
+/* Hacemos */
+.hacemos {
+    background: #fec00f;
+    position: relative;
+    height: 105vh;
+    max-height: 700px;
+}
+
+.hacemos img {
+    position: absolute;
+    width: 70%;
+    right: 0;
+    height: 100%;
+    z-index: 1;
+}
+
+.hacemos span {
+    font-size: 10rem;
+    display: block;
+    color: #fff;
+    font-weight: 800;
+    width: 90%;
+}
+
+.hacemos span.text_one {
+    position: absolute;
+    top: 100px;
+    left: 70px;
+}
+
+.hacemos span.text_two {
+    position: absolute;
+    bottom: 15%;
+    left: 70px;
+    z-index: 2;
+}
+
+a.checalo{
+    background: #fff;
+    color: #000;
+    width: 180px;
+    display: block;
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    z-index: 2;
+    font-weight: 600;
+    padding: 10px 20px;
+}
+a.checalo img{
+    width: 30px;
+    position: relative;
+    margin-left: 15px;
+}
+a.checalo:hover{
+    transform: scale(1.05);
+}
+
+/* Quieres ayudar */
+.ayudar {
+    height: 105vh;
+    position: relative;
+    max-height: 700px;
+}
+
+.ayudar p.subtitle {
+    font-size: 2.5rem;
+    color: #fec00f;
+    font-weight: 600;
+}
+
+.ayudar img {
+    width: 60%;
+    position: absolute;
+    left: 0;
+    height: 100%;
+}
+
+.ayudar .click {
+    display: block;
+    width: 170px;
+    background: #b22f65;
+    margin: 10px auto;
+    padding: 10px;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.ayudar h2 {
+    position: absolute;
+    font-size: 5rem;
+    font-weight: 700;
+    color: #f26322;
+    right: 4%;
+}
+
+.ayudar .text_one {
+    bottom: 20%;
+}
+
+.ayudar .text_two {
+    bottom: 0;
+    font-size: 9rem;
+    line-height: .7;
+}
+
+/* Impacto */
+.impacto {
+    background: #b22f65;
+}
+
+.impacto .title {
+    font-size: 9rem;
+    font-weight: 700;
+    color: #fff;
+    line-height: .9;
+}
+
+.impacto .col-md-1 p {
+    font-weight: 700;
+    color: #f26322;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 0;
+    line-height: 1;
+}
+
+.impacto .col-lg-3 img {
+    display: block;
+    margin: 10px auto;
+}
+
+.impacto .col-lg-3 p {
+    font-size: 2rem;
+    color: #fec00f;
+    margin: 0;
+    line-height: 1;
+    font-weight: 600;
+    text-align: center;
+}
+
+.impacto .row.text-center {
+    background: #f26322;
+    font-weight: 600;
+}
+
+.impacto .text-white {
+    font-size: 1.7rem;
+    line-height: 1.1;
+}
+
+.impacto .mb-0 {
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+/* Nosotros */
+.nosotros {
+    height: 140vh;
+    max-height: 800px;
+    position: relative;
+    background: #f59231;
+}
+
+.nosotros img {
+    position: absolute;
+    bottom: 0;
+    width: 55%;
+    left: 0;
+    height: 80%;
+}
+
+.nosotros h2 {
+    font-weight: 700;
+    font-size: 5rem;
+    color: #ef642f;
+}
+
+.nosotros .col-md-1 p {
+    font-size: 4rem;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    /* margin: 0; */
+    line-height: 1;
+}
+
+.nosotros ul {
+    list-style: decimal;
+}
+
+.nosotros li {
+    margin-bottom: 25px;
+}
+
+.team {
+    background-image: url(../images/Nosotros/bg_team.png);
+    background-size: cover;
+    background-position: bottom;
+    /* height: 500px; */
+}
+
+.team .col-md-7 {
+    z-index: 1;
+}
+
+.team .circle {
+    width: 340px;
+    border-radius: 50%;
+    height: 340px;
+    background: #f59231;
+    position: absolute;
+    left: -100px;
+    top: calc(50% - 170px);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-left: 110px;
+    padding-right: 10px;
+}
+
+.team .circle p {
+    font-weight: 600;
+    font-size: 1.3rem;
+    line-height: 1;
+}
+
+.valores {
+    background: #fcbf31;
+    max-height: 650px;
+}
+
+.valores h2,
+.team h2 {
+    color: #f59231;
+    font-weight: 700;
+    font-size: 5rem;
+    text-align: right;
+    line-height: 1;
+}
+
+.valores p {
+    text-align: right;
+}
+
+.referencia {
+    min-height: 700px;
+    position: relative;
+    background: #f3f3f4;
+    max-height: 800px;
+}
+
+.referencia .row {
+    height: auto;
+}
+
+.referencia .col-md-1 p {
+    font-size: 7rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #f59231;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.referencia p.title {
+    font-size: 7rem;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1;
+    margin-bottom: 30px;
+}
+
+.referencia p.title span {
+    color: #f59231;
+}
+
+.referencia img {
+    position: absolute;
+    right: 0;
+    width: 55%;
+    height: 700px;
+    bottom: 0;
+    z-index: 1;
+}
+
+section.text_model h2 {
+    color: #fff;
+    font-size: 4.5rem;
+    line-height: 1;
+    font-weight: 700;
+    width: 100%;
+}
+
+section.text .bg_orange h2 span {
+    display: block;
+}
+
+.mapa {
+    position: relative;
+    min-height: 700px;
+    background: #b03265;
+}
+
+.mapa h2 {
+    font-size: 3rem;
+    width: 150%;
+    position: relative;
+    z-index: 1;
+    font-weight: 600;
+}
+
+.mapa p {
+    font-size: 2.2rem;
+    line-height: 1.3;
+    margin-top: 40px;
+    color: #b03265;
+    font-weight: 600;
+}
+
+.mapa .container {
+    position: relative;
+    height: 600px;
+}
+
+.mapa img {
+    width: 75%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 93%;
+}
+
+/* SECCION GALERÍA */
+.header_galeria{
+    height: 200px;
+    background: #ef642f;
+}
+
+.colegios .carousel-item img{
+    width: 100%;
+    display: block;
+}
+
+.eventos .carousel-indicators, 
+.colegios .carousel-indicators{
+    position: relative;
+    margin: 40px 0;
+    width: 100%;
+}
+
+.eventos .carousel-indicators li, 
+.colegios .carousel-indicators li{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    opacity: .5;
+    background: transparent;
+    border: 2px solid #fff;
+}
+.eventos .carousel-indicators .active, 
+.colegios .carousel-indicators .active {
+    opacity: 1;
+    background: #fff;
+}
+
+.eventos h2{
+    text-align: center;
+    font-size: 10rem;
+    color: #fff;
+    font-weight: 800;
+    margin-top: -120px;
+    margin-bottom: 20px;
+}
+
+.eventos .col-md-1 p,
+.colegios .col-md-1 p{
+    font-size: 4.5rem;
+    color: #b03265;
+    font-weight: 700;
+    margin: 0;
+    line-height: 1;
+    text-align: center;
+}
+
+.eventos{
+    background: #353339;
+}
+.colegios .col-md-1 p{
+    color: #353339;
+    font-size: 3.5rem;
+}
+
+.colegios{
+    background: #b03265;
+}
+
+/* SECTION CONTACT */
+.header_contacto{
+    height: 200px;
+    background: #fcbf31;
+}
+.contacto{
+    height: 1000px;
+    background: #fcbf31;
+}
+.contacto h2.title{
+    font-size: 11rem;
+    font-weight: 800;
+    color: #fff;
+    line-height: .8;
+}
+.contacto .circle{
+    height: 350px;
+    width: 350px;
+    background:#f59231;
+    position: absolute;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 1;
+    text-align: center;
+    position: absolute;
+    right: -80px;
+    top: calc(50% - 175px);
+}
+.contacto iframe{
+    padding: 0;
+}
+.contacto .circle p, .contacto .circle a{
+    color: #27252b;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.contacto .text_apoyar p{
+    font-size: 2rem;
+    color: #ef642f;
+    font-weight: 600;
+    text-align: right;
+}
+.contacto a.btn_dona, .form .btn_dona{
+    background: #b03265;
+    padding: 10px 30px;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    margin: 0 auto;
+    display: block;
+    width: 130px;
+}
+.form{
+    height: 700px;
+}
+.form .col-lg-4 p.title{
+    position: absolute;
+    font-size: 5rem;
+    left: -120px;
+    font-weight: 700;
+    line-height: 1;
+    width: 125%;
+    top: -80px;
+    color: #ef642f;
+}
+.form .col-lg-4 p.subtitle{
+    position: absolute;
+    top: 80px;
+    font-size: 3rem;
+    font-weight: 600;
+    width: 730;
+    left: -300px;
+    color: #f59231;
+}
+.form .form-control{
+    height: 60px;
+}
+.form textarea{
+    height: 180px !important;
+}
+
+.form img{
+    width: 871px;
+    position: absolute;
+    bottom: 0;
+}
+.form form button{
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+    width: 160px !important;
+    left: -210px;
+    border: none;
+}
+
+/* Footer */
+footer {
+    background: #27252b;
+    color: #a7a9ac;
+}
+
+footer p,
+footer a {
+    font-size: .7rem;
+    color: #a7a9ac;
+}
+
+footer a:hover {
+    color: #fec00f;
+}
+
+footer a img {
+    width: 40px;
+    display: block;
+    margin: 0 10px;
+}
+
+@media (max-width:1200px){
+    .home .text_one, .home .text_two {
+        font-size: 9.5rem;
+    }
+    .home .text_one {
+        padding: 0;
+        width: calc(100% - 100px);
+        left: 100px;
+    }
+    .home img.niño_home{
+        width: 800px;
+    }
+    .referencia{
+        max-height: 1200px;
+    }
+}
+@media (max-width: 1100px){
+    .home .text_one, .home .text_two {
+        font-size: 8.5rem;
+    }
+    .bars {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 991px){
+    .home{
+        max-height: 900px;
+    }
+    .home .text_one, .home .text_two {
+        font-size: 6.5rem;
+    }
+    .home .text_one {
+        width: 100%;
+        left: 0;
+        text-align: center !important;
+        bottom: 50%;
+    }
+    .home .text_two{
+        bottom: 25%;
+    }
+    .text_one span{
+        margin-left: 0;
+    }
+    .home img.niño_home {
+        width: 650px;
+        left: 0;
+        bottom: 200px;
+    }
+    .home .bar_menu {
+        height: 200px;
+    }
+    .bar_menu .col-6 p {
+        font-size: 14px;
+    }    
+    .about h2 {
+        font-size: 3rem;
+    }
+    .hacemos span {
+        font-size: 6rem;
+    }
+    .hacemos span.text_one {
+        position: absolute;
+        top: 290px;
+        left: 30px;
+    }
+    .hacemos span.text_two {
+        bottom: 19%;
+        left: 30px;
+    }
+    .hacemos img {
+        position: absolute;
+        width: 75%;
+        height: 100%;
+        bottom: 0;
+    }
+    .impacto .col-md-1 p{
+        font-size: 4rem;
+    }
+    .impacto .row{
+        height: auto;
+    }
+    .impacto .title {
+        font-size: 7rem;
+    }
+    .nosotros{
+        max-height: 1000px;
+    }
+    .mapa h2{
+        width: 250%;
+    }
+    .mapa p{
+        line-height: 1.1;
+    }
+    .bars {
+        margin-top: 10px;
+    }
+    .referencia p.title{
+        font-size: 5rem;
+    }
+    section.text_model h2{
+        font-size: 2.5rem;
+    }
+    .eventos h2{
+        font-size: 7rem;
+    }
+    .eventos .col-md-1 p, .colegios .col-md-1 p{
+        font-size: 2.8rem;
+    }
+    .contacto h2.title {
+        font-size: 8rem;
+    }
+    .form .col-lg-4 p.title {
+        font-size: 4rem;
+        left: -195px;
+        width: 160%;
+        top: -43px;
+    }  
+}
+
+@media (max-width:767px){
+    .navbar-brand{
+        width: 130px;
+    }
+    .navbar-toggler{
+        position: absolute;
+        top: -10px;
+        right: 0;
+    }
+    .home{
+        height: auto;
+        max-height: initial;
+    }
+    .home h1.text-center {
+        margin-top: 130px;
+    }
+    .home .text_one, .home .text_two {
+        font-size: 35px;
+        position: relative;
+        bottom: inherit;
+        left: 0;
+        line-height: .5;
+        width: 100%;
+        padding: 5px 20px;
+    }
+    .home .text_one span{
+        margin: 0;
+    }
+    .home img.niño_home {
+        position: relative;
+        width: 900px;
+        bottom: inherit;
+        left: 0;
+        z-index: 1;
+    }
+    .home .bar_menu {
+        position: relative;
+        bottom: inherit;
+        width: 100%;
+        height: auto;
+        z-index: 2;
+    }
+    .home .bar_menu .col-6{
+        height: 100px;
+    }
+    .video {
+        width: 100%;
+    }
+
+    .about h2 {
+        font-size: 3rem;
+        font-weight: 800;
+    }
+    .hacemos{
+        height: auto;
+    }
+    .hacemos img {
+        position: relative;
+        width: 100%;
+    }
+    .hacemos span{
+        font-size: 3rem;
+    }
+    .hacemos span.text_one {
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    .hacemos span.text_two {
+        position: relative;
+        bottom: 0;
+        left: 0;
+        z-index: 2;
+    }
+    .ayudar{
+        height: auto;
+        max-height: inherit;
+    }
+    .ayudar img{
+        width: 100%;
+        position: relative;
+    }
+    .ayudar p.subtitle {
+        font-size: 2.2rem;
+        line-height: 1;
+    }
+    .ayudar h2 {
+        position: relative;
+        font-size: 3rem;
+        line-height: 1;
+        left: 0;
+        top: 0;
+    }
+    .ayudar .text_two {
+        bottom: 0;
+        font-size: 3rem;
+        line-height: .7;
+        margin-bottom: 20px;
+    }
+    .impacto .title{
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    /* Seccion Nosotros */
+    .nosotros {
+        height: auto;
+        max-height: initial;
+        position: relative;
+        background: #f59231;
+        padding-top: 80px;
+    }
+    .nosotros .row{
+        height: auto;
+    }
+    .nosotros .col-md-1 p {
+        font-size: 3rem;
+    }
+    .nosotros h2 {
+        font-size: 3rem;
+    }
+    .nosotros img {
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+    .team .circle {
+        width: 280px;
+        height: 280px;
+        position: relative;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        margin: 0 auto;
+    }
+    .team .circle p {
+        text-align: center;
+    }
+    .valores h2, .team h2 {
+        font-size: 2rem;
+        text-align: right;
+        line-height: 1;
+    }
+    .referencia .col-md-1 p {
+        font-size: 3rem;
+    }
+    .referencia p.title {
+        font-size: 2rem;
+    }
+    .referencia {
+        min-height: 700px;
+        max-height: initial;
+    }
+    .referencia img {
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+    section.text_model h2 {
+        font-size: 1.8rem;
+    }
+    .mapa .container {
+        position: relative;
+        height: auto;
+    }
+    .mapa {
+        min-height: initial;
+    }
+    .mapa p {
+        margin-top: 20px;
+    }
+    .mapa h2 {
+        font-size: 3rem;
+        width: 100%;
+    }
+    .mapa img {
+        width: 100%;
+        position: relative;
+        right: 0;
+        bottom: 0;
+        height: auto;
+    }
+    .bars{
+        margin: 20px 0 30px;
+    }
+    .eventos h2 {
+        font-size: 3rem;
+    }
+    .eventos .col-md-1 p, .colegios .col-md-1 p {
+        font-size: 2.5rem;
+    }
+    .eventos .carousel-indicators li, .colegios .carousel-indicators li{
+        width: 8px;
+        height: 8px;
+    }
+    .contacto{
+        height: auto;
+    }
+    .contacto h2.title {
+        font-size: 3rem;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .contacto .text_apoyar p{
+        line-height: 1;
+        text-align: center;
+    }
+    .contacto .circle{
+        position: relative;
+        right: 0;
+        top: 0;
+        width: 260px;
+        height: 260px;
+        margin: 10px auto;
+    }
+    .contacto .circle p, .contacto .circle a {
+        font-size: 1rem;
+    }
+    .form{
+        height: auto;
+    }
+    .form img {
+        position: relative;
+    }
+    .form .col-md-4 p.title {
+        position: relative;
+        font-size: 2.5rem;
+        left: 0;
+        width: 100%;
+        top: 0;
+        margin-top: 20px;
+    }
+    .contacto a.btn_dona, .form .btn_dona{
+        margin-bottom: 20px;
+    }
+    .form .col-md-4 p.subtitle {
+        position: relative;
+        top: 0;
+        font-size: 2rem;
+        left: 0;
+        color: #f59231;
+        line-height: 1;
+    }
+
+    footer .border-right{
+        border-bottom: 1px solid #dee2e6;
+        border-right: none !important;
+    }
+
+}
